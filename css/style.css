@@ -436,4 +436,106 @@ section nav .container .s_con .n_box1 .n_span .main_link:hover {
   width: 75%;
   margin-left: 150px;
 }
+
+.section5 .container {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: #2A313C;
+}
+
+.section5 .container .s_con {
+  width: 1320px;
+  height: 650px;
+  margin: 0 auto;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section5 .container .s_con .s5_box1 {
+  height: 650px;
+  width: 50%;
+}
+
+.section5 .container .s_con .s5_box1 .s5_img {
+  width: 550px;
+  height: 649px;
+  margin-left: 50px;
+}
+
+.section5 .container .s_con .s5_box2 {
+  width: 50%;
+  height: 650px;
+}
+
+.section5 .container .s_con .s5_box2 .s5_img2 {
+  margin-top: 80px;
+  width: 110%;
+}
+
+.section5 .container .s_con .s5_box2 .s5_text {
+  font-size: 65px;
+  color: white;
+  font-weight: 400;
+  line-height: 70px;
+  margin-top: 15px;
+}
+
+.section5 .container .s_con .s5_box2 .s5_subtext {
+  color: #999999;
+  font-size: 19.6px;
+  margin-top: 40px;
+  width: 600px;
+}
+
+.section5 .container .s_con .s5_box2 .carusel {
+  width: 90%;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section5 .container .s_con .s5_box2 .carusel .carusel-item {
+  height: 130px;
+  width: 33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.section5 .container .s_con .s5_box2 .carusel .carusel-item .carusel_img {
+  width: 90%;
+  border-radius: 10px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.section5 .container .s_con .s5_box2 .carusel .carusel-item:hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  background-color: #3B3D46;
+}
 /*# sourceMappingURL=style.css.map */
