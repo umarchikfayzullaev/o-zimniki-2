@@ -608,7 +608,7 @@ section{
                 font-weight: 400;
                 width: 800px;
                 margin: 0 auto;
-                padding-top: 150px;
+                padding-top: 130px;
             }
             .section_subtext{
                 width: 860px;
@@ -622,7 +622,7 @@ section{
                 justify-content: space-between;
                 align-items: center;
                 margin: 0 auto;
-                margin-top: 50px;
+                margin-top: 60px;
                 width: 600px;
                 height: 75px;
                 .section_inp{
@@ -649,5 +649,19 @@ section{
                 }
             }
       }
+    }
+}
+
+footer{
+    .container{
+        width: 1440px;
+        margin: 0 auto;
+        background-color: #222730;
+        .footer_con{
+            width: 1320px;
+            margin: 0 auto;
+            border: 1px solid black;
+            height: 500px;
+        }
     }
 }

@@ -839,7 +839,7 @@ section nav .container .s_con .n_box1 .n_span .main_link:hover {
   font-weight: 400;
   width: 800px;
   margin: 0 auto;
-  padding-top: 150px;
+  padding-top: 130px;
 }
 
 .section8 .container .s8_con .section_subtext {
@@ -861,7 +861,7 @@ section nav .container .s_con .n_box1 .n_span .main_link:hover {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 60px;
   width: 600px;
   height: 75px;
 }
@@ -897,5 +897,18 @@ section nav .container .s_con .n_box1 .n_span .main_link:hover {
 .section8 .container .s8_con label .section_link:hover {
   -webkit-box-shadow: 0px 0px 5px 5px #57b9ffa9;
           box-shadow: 0px 0px 5px 5px #57b9ffa9;
+}
+
+footer .container {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: #222730;
+}
+
+footer .container .footer_con {
+  width: 1320px;
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 500px;
 }
 /*# sourceMappingURL=style.css.map */
