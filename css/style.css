@@ -821,11 +821,81 @@ section nav .container .s_con .n_box1 .n_span .main_link:hover {
 .section8 .container {
   width: 1440px;
   margin: 0 auto;
-  border: 1px solid black;
-  height: 650px;
   background-image: url(../img/IMAGE27.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.section8 .container .s8_con {
+  width: 1320px;
+  margin: 0 auto;
+  text-align: center;
+  height: 650px;
+}
+
+.section8 .container .s8_con .section_text {
+  font-size: 70px;
+  font-weight: 400;
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+
+.section8 .container .s8_con .section_subtext {
+  width: 860px;
+  color: #555555;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 19px;
+}
+
+.section8 .container .s8_con label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 600px;
+  height: 75px;
+}
+
+.section8 .container .s8_con label .section_inp {
+  width: 400px;
+  height: 75px;
+  font-size: 20px;
+  text-transform: capitalize;
+  padding-left: 20px;
+  border: none;
+}
+
+.section8 .container .s8_con label .section_link {
+  width: 200px;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  background-color: #57B8FF;
+  font-size: 18px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.section8 .container .s8_con label .section_link:hover {
+  -webkit-box-shadow: 0px 0px 5px 5px #57b9ffa9;
+          box-shadow: 0px 0px 5px 5px #57b9ffa9;
 }
 /*# sourceMappingURL=style.css.map */
