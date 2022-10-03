@@ -127,6 +127,7 @@ section{
                         }
                         .main_link:hover{
                             background-color: #57B8FF;
+                            box-shadow: 0px 0px 30px 10px #57b9ffa9;
                         }
                     }
                 }
@@ -487,33 +488,56 @@ section{
     .container{
         width: 1440px;
         margin: 0 auto;
-        background-color: #000000E0;
+        background-color: #000000;
         .s7_con{
             width: 1320px;
             margin: 0 auto;
             border: 1px solid black;
             height: 1050px;
-            padding: 50px 0px;
+            padding: 70px 0px;
             .s7_top_place{
                 width: 100%;
                 height: 200px;
-                border: 1px solid black;
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
                 .top_left{
                     width: 500px;
-                    border: 1px solid black;
+                    .section_img{
+                        width: 110%;
+                    }
+                    .section_text{
+                        font-size: 60px;
+                        width: 500px;
+                        color: white;
+                        margin: 0 auto;
+                        font-weight: 400;
+                        line-height: 60px;
+                    }
                 }
                 .top_right{
-                    width: 200px;
-                    border: 1px solid black;
+                    width: 210px;
+                    padding-top: 100px;
+                    .section_link{
+                        display: flex;
+                        justify-content: center;
+                        padding: 20px 0px;
+                        align-items: center;
+                        font-size: 20px;
+                        color: white;
+                        transition: .4s;
+                        margin: 5px;
+                        letter-spacing: 1px;
+                    }
+                    .section_link:hover{
+                        background-color: #57B8FF;
+                        box-shadow: 0px 0px 30px 10px #57b9ffa9;
+                    }
                 }
             }
             .s7_bottom_place{
                 width: 100%;
                 height: 700px;
-                border: 1px solid black;
                 margin-top: 50px;
                 display: flex;
                 justify-content: space-between;
@@ -521,23 +545,60 @@ section{
                 .bottom_left{
                     height: 700px;
                     width: 50%;
-                    border: 1px solid black;
+                    .section_img2{
+                        width: 650px;
+                        height: 510px;
+                    }
+                    .section_subtext{
+                        color: #57B8FF;
+                        font-size: 20px;
+                        margin-top: 25px;
+                    }
+                    .section_text2{
+                        font-size: 35px;
+                        color: white;
+                        font-weight: 400;
+                        margin-top: 25px;
+                    }
                 }
                 .bottom_right{
                     height: 700px;
                     width: 50%;
-                    border: 1px solid black;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
                     flex-wrap: wrap;
                     .bottom_item{
                         width: 50%;
-                        border: 1px solid black;
                         height: 50%;
+                        padding: 10px;
+                        .bottom_subtext{
+                            color: #57B8FF;
+                            font-size: 18px;
+                            margin-top: 20px;
+                        }
+                        .bottom_text{
+                            font-size: 26px;
+                            color: white;
+                            margin-top: 15px;
+                            font-weight: 400;
+                        }
                     }
                 }
             }
         }
+    }
+}
+
+.section8{
+    .container{
+        width: 1440px;
+        margin: 0 auto;
+        border: 1px solid black;
+        height: 650px;
+        background-image: url(../img/IMAGE27.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 }

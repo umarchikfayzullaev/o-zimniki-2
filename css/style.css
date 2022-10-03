@@ -185,6 +185,8 @@ section nav .container .s_con .n_box1 .n_span .main_link {
 
 section nav .container .s_con .n_box1 .n_span .main_link:hover {
   background-color: #57B8FF;
+  -webkit-box-shadow: 0px 0px 30px 10px #57b9ffa9;
+          box-shadow: 0px 0px 30px 10px #57b9ffa9;
 }
 
 .section2 .container {
@@ -671,7 +673,7 @@ section nav .container .s_con .n_box1 .n_span .main_link:hover {
 .section7 .container {
   width: 1440px;
   margin: 0 auto;
-  background-color: #000000E0;
+  background-color: #000000;
 }
 
 .section7 .container .s7_con {
@@ -679,13 +681,12 @@ section nav .container .s_con .n_box1 .n_span .main_link:hover {
   margin: 0 auto;
   border: 1px solid black;
   height: 1050px;
-  padding: 50px 0px;
+  padding: 70px 0px;
 }
 
 .section7 .container .s7_con .s7_top_place {
   width: 100%;
   height: 200px;
-  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -699,18 +700,54 @@ section nav .container .s_con .n_box1 .n_span .main_link:hover {
 
 .section7 .container .s7_con .s7_top_place .top_left {
   width: 500px;
-  border: 1px solid black;
+}
+
+.section7 .container .s7_con .s7_top_place .top_left .section_img {
+  width: 110%;
+}
+
+.section7 .container .s7_con .s7_top_place .top_left .section_text {
+  font-size: 60px;
+  width: 500px;
+  color: white;
+  margin: 0 auto;
+  font-weight: 400;
+  line-height: 60px;
 }
 
 .section7 .container .s7_con .s7_top_place .top_right {
-  width: 200px;
-  border: 1px solid black;
+  width: 210px;
+  padding-top: 100px;
+}
+
+.section7 .container .s7_con .s7_top_place .top_right .section_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 20px;
+  color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  margin: 5px;
+  letter-spacing: 1px;
+}
+
+.section7 .container .s7_con .s7_top_place .top_right .section_link:hover {
+  background-color: #57B8FF;
+  -webkit-box-shadow: 0px 0px 30px 10px #57b9ffa9;
+          box-shadow: 0px 0px 30px 10px #57b9ffa9;
 }
 
 .section7 .container .s7_con .s7_bottom_place {
   width: 100%;
   height: 700px;
-  border: 1px solid black;
   margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -726,13 +763,29 @@ section nav .container .s_con .n_box1 .n_span .main_link:hover {
 .section7 .container .s7_con .s7_bottom_place .bottom_left {
   height: 700px;
   width: 50%;
-  border: 1px solid black;
+}
+
+.section7 .container .s7_con .s7_bottom_place .bottom_left .section_img2 {
+  width: 650px;
+  height: 510px;
+}
+
+.section7 .container .s7_con .s7_bottom_place .bottom_left .section_subtext {
+  color: #57B8FF;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.section7 .container .s7_con .s7_bottom_place .bottom_left .section_text2 {
+  font-size: 35px;
+  color: white;
+  font-weight: 400;
+  margin-top: 25px;
 }
 
 .section7 .container .s7_con .s7_bottom_place .bottom_right {
   height: 700px;
   width: 50%;
-  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -748,7 +801,31 @@ section nav .container .s_con .n_box1 .n_span .main_link:hover {
 
 .section7 .container .s7_con .s7_bottom_place .bottom_right .bottom_item {
   width: 50%;
-  border: 1px solid black;
   height: 50%;
+  padding: 10px;
+}
+
+.section7 .container .s7_con .s7_bottom_place .bottom_right .bottom_item .bottom_subtext {
+  color: #57B8FF;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.section7 .container .s7_con .s7_bottom_place .bottom_right .bottom_item .bottom_text {
+  font-size: 26px;
+  color: white;
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+.section8 .container {
+  width: 1440px;
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 650px;
+  background-image: url(../img/IMAGE27.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 /*# sourceMappingURL=style.css.map */
