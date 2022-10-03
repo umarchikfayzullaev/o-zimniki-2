@@ -660,8 +660,69 @@ footer{
         .footer_con{
             width: 1320px;
             margin: 0 auto;
-            border: 1px solid black;
-            height: 500px;
+            height: 400px;
+            .footer_list{
+                width: 100%;
+                height: 300px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .footer_item{
+                    width: 23%;
+                    height: 100%;
+                    padding-top: 75px;
+                    .footer_img{
+                        width: 50%;
+                    }
+                    .footer_text{
+                        color: #999999;
+                        margin-top: 20px;
+                        line-height: 20px;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                    .footer_maintext{
+                        font-size: 22px;
+                        font-weight: 400;
+                        color: white;
+                        padding-bottom: 10px;
+                    }
+                    .footer_link{
+                        font-weight: 400;
+                        font-size: 17px;
+                        color: #999999;
+                        margin-top: 15px;
+                        transition: .4s ease;
+                    }
+                    .footer_link:hover{
+                        color: white;
+                    }
+                    .footer_texts{
+                        font-size: 22px;
+                        font-weight: 400;
+                        color: white;
+                        padding-bottom: 10px;
+                    }
+                    .footer_board{
+                        width: 300px;
+                        height: 70px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-top: 20px;
+                        .footer_items{
+                            width: 60px;
+                            height: 60px;
+                            background-color: #383D45;
+                        }
+                    }
+                }
+            }
+            .bottom{
+                width: 1320px;
+                margin: 0 auto;
+                border: 1px solid #3E3E3E;
+            }
         }
     }
 }
