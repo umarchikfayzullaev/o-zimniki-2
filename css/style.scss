@@ -721,7 +721,14 @@ footer{
             .bottom{
                 width: 1320px;
                 margin: 0 auto;
-                border: 1px solid #3E3E3E;
+                border-top: 0.1px solid #3e3e3ec9;
+                text-align: center;
+                padding-top: 30px;
+                .bottom_text{
+                    color: #898989;
+                    font-size: large;
+                    font-weight: 400;
+                }
             }
         }
     }

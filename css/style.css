@@ -994,6 +994,14 @@ footer .container .footer_con .footer_list .footer_item .footer_board .footer_it
 footer .container .footer_con .bottom {
   width: 1320px;
   margin: 0 auto;
-  border: 1px solid #3E3E3E;
+  border-top: 0.1px solid #3e3e3ec9;
+  text-align: center;
+  padding-top: 30px;
+}
+
+footer .container .footer_con .bottom .bottom_text {
+  color: #898989;
+  font-size: large;
+  font-weight: 400;
 }
 /*# sourceMappingURL=style.css.map */
